@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "",
+  "notes": "My awesome keymap",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "mechboards/crkbd/pro",
   "keymap": "colemakdh",
@@ -30,7 +30,7 @@
       "KC_E",
       "KC_I",
       "KC_O",
-      "KC_NO",
+      "KC_SCLN",
       "KC_LSFT",
       "KC_Z",
       "KC_X",
@@ -65,9 +65,9 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "LCTL(KC_R)",
+      "LGUI(KC_S)",
+      "LGUI(KC_T)",
       "KC_NO",
       "KC_NO",
       "KC_4",
@@ -78,9 +78,9 @@
       "KC_TRNS",
       "KC_NO",
       "KC_NO",
+      "LGUI(KC_C)",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "LGUI(KC_V)",
       "KC_0",
       "KC_1",
       "KC_2",
@@ -117,7 +117,7 @@
       "KC_LBRC",
       "KC_RBRC",
       "KC_BSLS",
-      "KC_SCLN",
+      "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
       "KC_NO",
@@ -170,8 +170,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "MS_BTN1",
+      "MS_BTN2",
       "KC_NO",
       "KC_NO",
       "KC_TRNS",
@@ -183,5 +183,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": ""
+  "author": "Anonymous"
 }
